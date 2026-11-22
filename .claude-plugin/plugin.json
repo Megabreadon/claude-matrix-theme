@@ -1,0 +1,112 @@
+{
+  "name": "matrix",
+  "version": "0.3.0",
+  "description": "Matrix theme: black ground, green Claude text, soft white user text, falling code rain",
+  "userConfig": {
+    "enabled": {
+      "type": "string",
+      "title": "Matrix theme",
+      "description": "on: draw the Matrix look. off: draw the app's normal look (plugin stays installed)",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    },
+    "charset": {
+      "type": "string",
+      "title": "Rain characters",
+      "description": "What falls in the background: katakana, binary, hex, runes, math or symbols",
+      "default": "katakana",
+      "options": [
+        "katakana",
+        "binary",
+        "hex",
+        "runes",
+        "math",
+        "symbols"
+      ]
+    },
+    "sounds": {
+      "type": "string",
+      "title": "Sound pack",
+      "description": "matrix: terminal blips and a payphone ring. minimal: the gentler first set. off: silent",
+      "default": "matrix",
+      "options": [
+        "matrix",
+        "minimal",
+        "off"
+      ]
+    },
+    "cue_send": {
+      "type": "string",
+      "title": "Sound: send",
+      "description": "You send a prompt. on or off",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    },
+    "cue_tool": {
+      "type": "string",
+      "title": "Sound: tool",
+      "description": "Claude starts a tool call (plays often). on or off",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    },
+    "cue_done": {
+      "type": "string",
+      "title": "Sound: done",
+      "description": "Claude finishes its reply. on or off",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    },
+    "cue_ask": {
+      "type": "string",
+      "title": "Sound: ask",
+      "description": "Claude needs your answer. on or off",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    },
+    "cue_error": {
+      "type": "string",
+      "title": "Sound: error",
+      "description": "A turn ends in an error. on or off",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    },
+    "cue_compact": {
+      "type": "string",
+      "title": "Sound: compact",
+      "description": "Conversation is compacted. on or off",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    },
+    "cue_click": {
+      "type": "string",
+      "title": "Sound: click",
+      "description": "You click the bare backdrop. on or off",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    }
+  }
+}

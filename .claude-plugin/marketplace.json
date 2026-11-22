@@ -1,0 +1,5 @@
+{
+  "name": "claude-matrix-theme",
+  "owner": { "name": "Megabreadon" },
+  "plugins": [{ "name": "matrix", "source": "./" }]
+}
