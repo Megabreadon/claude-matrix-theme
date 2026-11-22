@@ -4,7 +4,7 @@ A Matrix-style look for the Claude desktop app's Code tab: pure black ground, a 
 
 ![Matrix theme in the Claude desktop app](screenshot.png)
 
-The theme only changes how local Code tab sessions draw. It does not touch the regular chat tab or claude.ai.
+The theme only changes how local Code tab sessions draw in the desktop app. It does not touch the regular chat tab or claude.ai, and the Claude mobile app does not show it, even for sessions connected through Remote Control.
 
 ## Install
 
